@@ -1,0 +1,260 @@
+/* #ID h1TAG .class */
+body {
+  font-family: 'Montserrat-black', sans-serif;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #5F939A;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  text-decoration: inherit;
+}
+
+/* Title Section; */
+/* #title .container-fluid {
+
+
+} */
+
+#title {
+  background-color: #1b5459;
+  /* color: #fff; */
+  padding-bottom: 7%;
+}
+
+.printing-image {
+  width: 260%;
+  position: relative;
+  /* >By this you can resize the images or items */
+  /* transform: rotate(45deg); */
+  left:70%;
+  top: 0.5%;
+
+  /* z-index: -1;
+  position: absolute; */
+
+}
+
+.title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  /* font-family: ;  font-size: 3rem;  line-height: 1.5;  font-weight: 900; */
+  position: relative;
+  top: 5%;
+  text-align: left;
+}
+
+.bio-printing {
+  font-weight: bold;
+  position: relative;
+  top: 10%;
+  color: inherit;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.span-order {
+  color: #fff;
+}
+
+.span-easy {
+  color: #fff;
+}
+
+.span-satisfaction {
+  color: #ffff;
+}
+
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+
+.features-box {
+  /* this is for center */
+  padding: 5%;
+}
+
+.icon {
+  color: #1b5459;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #F08E6B;
+}
+
+h3 {
+  font-family: 'Montagu Slab', serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Montagu Slab', serif;
+  font-size: 0.8rem;
+  color: #8f8f8f;
+  /* this color is greyish */
+}
+
+/* Donwload Buttons */
+
+.download-button {
+  margin: 40% 0% 3% 0;
+}
+
+.download-button1 {
+  position: relative;
+  left: 10px;
+}
+
+.button {
+  position: relative;
+  left: 10%;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+
+
+/* Testemonials Sections */
+
+#testimonials {
+  background-color: #F08E6B;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 1.5em;
+  color: #ffff;
+  padding: 1% 10%;
+  position: relative;
+  top: 5%;
+  font-weight: bold;
+}
+
+.jeanmalony {
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+.beverly {
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+.b-image {
+  width: 20%;
+  position: relative;
+  /* border-radius: 100%; */
+  margin: 10px;
+}
+.testimonials-image {
+  width: 20%;
+  position: relative;
+  /* border-radius: 100%; */
+  margin: 10px;
+}
+
+/* Press Section */
+#press {
+  background-color: #F08E6B;
+  padding-bottom: 3%;
+  /* text-align: center; to center object */
+}
+
+.press {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing-d {
+    /* background-color: #1b5459; */
+
+}
+.display-4{
+    color: #1b5459;
+}
+.cards-1 {
+  padding: 20px;
+  padding: 3% 2%;
+  /* color: #1b5459; */
+
+}
+.col {
+  /* color: #1b5459; */
+}
+
+/* Call to Action */
+#cta {
+  background-color: #1b5459;
+  padding: 10%;
+}
+.cta-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.0;
+  font-weight: 800;
+  color: #F08E6B;
+  position: relative;
+}
+.download-button4 {
+      position: relative;
+      left: 20px;
+      margin: 10% 0% 3% 0;
+}
+.download3 {
+    margin: 10% 0% 3% 0;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15%;
+}
+.social-icons {
+  padding: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .printing-image {
+    position: static;
+    transform:rotate(0);
+  }
+}
